@@ -20,7 +20,8 @@ This solution focuses on building a dynamic and scalable ecosystem that caters t
 
 
 ## Proposed Solution / Architecture Diagram
-    ![image](https://github.com/user-attachments/assets/0fe9501b-b26e-4170-bb45-528aa618562a)
+    ![Screenshot (18)](https://github.com/user-attachments/assets/7cd1cf06-84c3-43af-8ce0-47190894bbb8)
+
 
 
 
