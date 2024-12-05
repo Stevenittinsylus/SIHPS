@@ -20,22 +20,9 @@ This solution focuses on building a dynamic and scalable ecosystem that caters t
 
 
 ## Proposed Solution / Architecture Diagram
-               +------------------------+
-               |    Web & Mobile Apps   |
-               +------------------------+
-                        ↓
-      +-----------------------------------------+
-      |        REST API Gateway (Backend)       |
-      +-----------------------------------------+
-         ↓                    ↓                ↓
-+-----------------+  +----------------+   +--------------+
-| Authentication  |  |  Database      |   |  Third-Party |
-| (OAuth/JWT)     |  |  (PostgreSQL)  |   |  Services    |
-+-----------------+  +----------------+   +--------------+
-                                ↓
-               +-------------------------------+
-               | Media Storage (AWS S3 Bucket) |
-               +-------------------------------+
+    ![image](https://github.com/user-attachments/assets/0fe9501b-b26e-4170-bb45-528aa618562a)
+
+
 
 The proposed Alumni Association platform will consist of web and mobile applications that serve as a comprehensive hub for alumni engagement. The platform will include features such as alumni registration, donation handling, networking, job posting, event management, and success story tracking. It is designed to provide secure, scalable, and user-friendly access for alumni and administrators.
 Core Features
