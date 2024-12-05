@@ -17,12 +17,7 @@ Philanthropic Contributions: Enable alumni to give back to the institution throu
 Career Growth: Provide job opportunities, mentorship programs, and professional networking.
 Community Building: Showcase alumni achievements, organize events, and keep alumni updated with institutional developments.
 This solution focuses on building a dynamic and scalable ecosystem that caters to the diverse needs of alumni, enhancing their sense of belonging and connection to the institution.
-
-
 ## Proposed Solution / Architecture Diagram
-    ![Screenshot (18)](https://github.com/user-attachments/assets/7cd1cf06-84c3-43af-8ce0-47190894bbb8)
-
-
 
 
 The proposed Alumni Association platform will consist of web and mobile applications that serve as a comprehensive hub for alumni engagement. The platform will include features such as alumni registration, donation handling, networking, job posting, event management, and success story tracking. It is designed to provide secure, scalable, and user-friendly access for alumni and administrators.
@@ -39,10 +34,6 @@ Events Management:Tools for creating and managing events, including RSVPs.
 Calendar integration for event reminders.
 Feedback and Surveys:Dynamic survey builder for administrators.
 Analytics dashboard for feedback interpretation.
-
-
-
-
 ## Use Cases
 Alumni Registration:
 Actors: Alumni, Admin
