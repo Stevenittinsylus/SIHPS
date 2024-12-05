@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:5-12-2024
+## Register Number: 24001421
+## Name: Steve Nittin Sylus
 ## Problem Title
 Implementation of the Alumni Association platform for the University/Institute.
 ## Problem Description
