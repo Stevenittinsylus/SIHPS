@@ -21,31 +21,18 @@ This solution focuses on building a dynamic and scalable ecosystem that caters t
 
 ## Proposed Solution / Architecture Diagram
 The proposed Alumni Association platform will consist of web and mobile applications that serve as a comprehensive hub for alumni engagement. The platform will include features such as alumni registration, donation handling, networking, job posting, event management, and success story tracking. It is designed to provide secure, scalable, and user-friendly access for alumni and administrators.
-
 Core Features
-User Registration:
-
-Alumni can register using email, social login, or institute-provided credentials.
+User Registration:Alumni can register using email, social login, or institute-provided credentials.
 Profile creation with options to add personal and professional details.
-Donation Management:
-
-Integrated with payment gateways like Razorpay or Stripe.
+Donation Management:Integrated with payment gateways like Razorpay or Stripe.
 Automated receipt generation and tracking of donation history.
-Networking Hub:
-
-AI-driven suggestions for connections based on interests, batch, or profession.
+Networking Hub:AI-driven suggestions for connections based on interests, batch, or profession.
 Chat and forum functionalities to facilitate interactions.
-Job Portal:
-
-Features for job posting, job searching, and application tracking.
+Job Portal:Features for job posting, job searching, and application tracking.
 Email and in-app notifications for job updates.
-Events Management:
-
-Tools for creating and managing events, including RSVPs.
+Events Management:Tools for creating and managing events, including RSVPs.
 Calendar integration for event reminders.
-Feedback and Surveys:
-
-Dynamic survey builder for administrators.
+Feedback and Surveys:Dynamic survey builder for administrators.
 Analytics dashboard for feedback interpretation.
                +------------------------+
                |    Web & Mobile Apps   |
@@ -70,23 +57,18 @@ Analytics dashboard for feedback interpretation.
 Alumni Registration:
 Actors: Alumni, Admin
 Process: Alumni sign up and verify their identity via OTP or email. Profiles are created with their educational and professional details.
-
 Donation Portal:
 Actors: Alumni, Admin
 Process: Alumni make secure donations using integrated payment gateways. Admins track donation metrics.
-
 Networking Hub:
 Actors: Alumni
 Process: Alumni discover and connect with peers or mentors based on commonalities like field, interests, or location.
-
 Job Portal:
 Actors: Alumni, Employers
 Process: Employers post job openings. Alumni explore job opportunities and submit applications.
-
 Events and Reunions:
 Actors: Alumni, Admin
 Process: Admins create event details. Alumni register for events and receive reminders.
-
 Success Stories:
 Actors: Alumni, Admin
 Process: Alumni share achievements. Admins approve and showcase them to inspire others.
@@ -147,49 +129,25 @@ Feedback and Surveys:
 Dynamic survey builder for administrators.
 Analytics dashboard for feedback interpretation.
 System Architecture Diagram
-plaintext
-Copy code
-               +------------------------+
-               |    Web & Mobile Apps   |
-               +------------------------+
-                        ↓
-      +-----------------------------------------+
-      |        REST API Gateway (Backend)       |
-      +-----------------------------------------+
-         ↓                    ↓                ↓
-+-----------------+  +----------------+   +--------------+
-| Authentication  |  |  Database      |   |  Third-Party |
-| (OAuth/JWT)     |  |  (PostgreSQL)  |   |  Services    |
-+-----------------+  +----------------+   +--------------+
-                                ↓
-               +-------------------------------+
-               | Media Storage (AWS S3 Bucket) |
-               +-------------------------------+
 Use Cases
 Alumni Registration:
 Actors: Alumni, Admin
 Process: Alumni sign up and verify their identity via OTP or email. Profiles are created with their educational and professional details.
-
 Donation Portal:
 Actors: Alumni, Admin
 Process: Alumni make secure donations using integrated payment gateways. Admins track donation metrics.
-
 Networking Hub:
 Actors: Alumni
 Process: Alumni discover and connect with peers or mentors based on commonalities like field, interests, or location.
-
 Job Portal:
 Actors: Alumni, Employers
 Process: Employers post job openings. Alumni explore job opportunities and submit applications.
-
 Events and Reunions:
 Actors: Alumni, Admin
 Process: Admins create event details. Alumni register for events and receive reminders.
-
 Success Stories:
 Actors: Alumni, Admin
 Process: Alumni share achievements. Admins approve and showcase them to inspire others.
-
 Technology Stack
 Frontend
 Web: React.js or Angular for building responsive interfaces.
@@ -210,21 +168,13 @@ Payment Gateways: Razorpay, Stripe.
 Email Notifications: SendGrid or Amazon SES.
 Push Notifications: Firebase Cloud Messaging (FCM).
 Dependencies
-Hardware Requirements:
-
-Cloud-hosted servers with scalable resources.
+Hardware Requirements:Cloud-hosted servers with scalable resources.
 Reliable storage for multimedia uploads.
-Software Requirements:
-
-Backend frameworks for API development.
+Software Requirements:Backend frameworks for API development.
 Mobile development tools for Flutter or React Native.
-Third-Party Services:
-
-Payment gateways for processing donations.
+Third-Party Services:Payment gateways for processing donations.
 Notification systems for updates and alerts.
-Team Composition:
-
-Frontend Developers for web and mobile applications.
+Team Composition:Frontend Developers for web and mobile applications.
 Backend Developers for API development and integrations.
 UI/UX Designers for user-centric designs.
 Cloud Engineers for deployment and scaling.
