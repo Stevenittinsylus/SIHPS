@@ -20,20 +20,6 @@ This solution focuses on building a dynamic and scalable ecosystem that caters t
 
 
 ## Proposed Solution / Architecture Diagram
-The proposed Alumni Association platform will consist of web and mobile applications that serve as a comprehensive hub for alumni engagement. The platform will include features such as alumni registration, donation handling, networking, job posting, event management, and success story tracking. It is designed to provide secure, scalable, and user-friendly access for alumni and administrators.
-Core Features
-User Registration:Alumni can register using email, social login, or institute-provided credentials.
-Profile creation with options to add personal and professional details.
-Donation Management:Integrated with payment gateways like Razorpay or Stripe.
-Automated receipt generation and tracking of donation history.
-Networking Hub:AI-driven suggestions for connections based on interests, batch, or profession.
-Chat and forum functionalities to facilitate interactions.
-Job Portal:Features for job posting, job searching, and application tracking.
-Email and in-app notifications for job updates.
-Events Management:Tools for creating and managing events, including RSVPs.
-Calendar integration for event reminders.
-Feedback and Surveys:Dynamic survey builder for administrators.
-Analytics dashboard for feedback interpretation.
                +------------------------+
                |    Web & Mobile Apps   |
                +------------------------+
@@ -50,6 +36,22 @@ Analytics dashboard for feedback interpretation.
                +-------------------------------+
                | Media Storage (AWS S3 Bucket) |
                +-------------------------------+
+
+The proposed Alumni Association platform will consist of web and mobile applications that serve as a comprehensive hub for alumni engagement. The platform will include features such as alumni registration, donation handling, networking, job posting, event management, and success story tracking. It is designed to provide secure, scalable, and user-friendly access for alumni and administrators.
+Core Features
+User Registration:Alumni can register using email, social login, or institute-provided credentials.
+Profile creation with options to add personal and professional details.
+Donation Management:Integrated with payment gateways like Razorpay or Stripe.
+Automated receipt generation and tracking of donation history.
+Networking Hub:AI-driven suggestions for connections based on interests, batch, or profession.
+Chat and forum functionalities to facilitate interactions.
+Job Portal:Features for job posting, job searching, and application tracking.
+Email and in-app notifications for job updates.
+Events Management:Tools for creating and managing events, including RSVPs.
+Calendar integration for event reminders.
+Feedback and Surveys:Dynamic survey builder for administrators.
+Analytics dashboard for feedback interpretation.
+
 
 
 
